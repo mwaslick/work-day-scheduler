@@ -7,6 +7,8 @@ This application is an interactive calendar app that keeps track of the hours of
 
 Users can input their work day schedules and events within the text areas. When the blue Save button is clicked, the text will be stored within the rows even when the page is refreshed. This will be convenient if users need to shut down their computer or navigate to a separate page, as their events will remain on the page if they navigate to the application later.
 
+You can use the app yourself at https://mwaslick.github.io/work-day-scheduler/ !
+
 ## Screenshots
 
 Example Schedule
