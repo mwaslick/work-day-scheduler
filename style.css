@@ -13,9 +13,13 @@ textarea{
   padding: 10px;
 }
 
+h1 {
+  font-family: 'Tinos', serif;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: lightsteelblue;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -24,6 +28,17 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+}
+
+#currentDay {
+  line-height: 28px;
+  font-size: 22px;
+  font-family: 'Jost', sans-serif;
+}
+
+.lead {
+  font-family: 'Jost', sans-serif;
+  font-size: 22px;
 }
 
 .time-block{
@@ -41,9 +56,15 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  font-size: 20px;
-  padding-top: 30px;
+  font-size: 25px;
+  padding-top: 25px;
   font-weight: bolder;
+  font-family: 'Jost', sans-serif;
+}
+
+textarea {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
 }
 
 .past {
@@ -65,10 +86,11 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: cornflowerblue;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: 'Jost', sans-serif
 }
 
 .saveBtn i:hover {
