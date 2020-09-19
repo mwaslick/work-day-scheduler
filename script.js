@@ -2,7 +2,7 @@
 var hours = ["9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM"]
 
 // Finds the current day and hour with moment.js and displays it in the paragraph with class currentDay
-$("#currentDay").html(moment().format('dddd') + "<br>" + moment().format('MMMM Do YYYY')
+$("#currentDay").html(moment().format('dddd') + "<br>" + moment().format('MMMM Do YYYY') + "<br>" + moment().format('h:mm:ss a'))
 
 // Gets tasks from localStorage and parses them with JSON
 var tasks = localStorage.getItem('tasksInput');
